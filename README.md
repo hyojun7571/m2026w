@@ -1,2 +1,3 @@
 # m2026s
-Lecture material for 'Matlab Programming' in 2026 Spring Term at Incheon National University
+Lecture material for 'Matlab Programming'
+- 2026 Spring @INU, Republic of Korea
