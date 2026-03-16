@@ -1,0 +1,31 @@
+%[text] # 나의 첫 번째 라이브 스크립트
+%[text] ## 목록 만들기
+%[text] ### 순서가 정해진 목록
+%[text] 1. 첫 번째
+%[text] 2. 두 번째
+%[text] 3. 이렇게 순서가 정해진 목록 \
+%[text] ### 순서가 없는 목록
+%[text] - 가지
+%[text] - 감자
+%[text] - 포도 \
+%[text] ### 수식
+%[text] - 원의 둘레 길이 :\\$2\\pi\\$
+%[text] - 원의 면적:\\$s = \\pi r^2\\$
+%[text] - 1 ~ 10000의 합:\\$n=\\sum\_{k=1}^{10000}k\\$ \
+m = 40; %[control:slider:1bf1]{"position":[5,7]}
+n = sum(1:m) %[output:025026f3]
+%%
+%[text] ### 행렬
+%[text] 
+
+%[appendix]{"version":"1.0"}
+%---
+%[metadata:view]
+%   data: {"layout":"inline","rightPanelPercent":34.1}
+%---
+%[control:slider:1bf1]
+%   data: {"defaultValue":10,"label":"슬라이더","max":100,"min":10,"run":"Section","runOn":"ValueChanging","step":10}
+%---
+%[output:025026f3]
+%   data: {"dataType":"textualVariable","outputData":{"name":"n","value":"820"}}
+%---
