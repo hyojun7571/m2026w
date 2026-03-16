@@ -61,7 +61,7 @@ spring = s(spr_start:spr_end);
 part2 = s(spr_end+1: win_start-1);
 winter = s(win_start:win_end);
 part3 = s(win_end+1:end);
-s_new = [part1 winter part2 spring part3] %[output:53992cda]
+s_new = [part1 winter part2 spring part3] %%%% %[output:53992cda]
 soundsc(s_new,Fs)
 
 
